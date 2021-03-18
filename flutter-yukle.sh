@@ -17,7 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 echo "Bağımlılıklar kuruluyor..."
-sudo apt install bash curl file git unzip which xz-utils zip dialog -y>>/dev/null
+sudo apt-get install bash curl file git unzip which xz-utils zip dialog -y>>/dev/null
 
 echo "Flutter kuruluyor..."
 wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz
