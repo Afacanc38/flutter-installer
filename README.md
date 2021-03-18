@@ -9,7 +9,8 @@ Flutter ve Dart'ı kolayca yükleyin!
 ```
 git clone https://github.com/Afacanc38/flutter-yukleyici/flutter-yukleyici.git
 cd flutter-yukleyici
-python3 flutter-yukle.py
+chmod +x flutter-yukleyici.sh
+./flutter-yukleyici.sh
 ```
 # Sorunlar
 Lütfen karşılaştığınız hataları Issues kısmında belirtin.
