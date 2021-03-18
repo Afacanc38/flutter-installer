@@ -38,6 +38,7 @@ except KeyboardInterrupt:
     quit()
 except Exception:
     print('Bilinmeyen bir hata oluştu. Yükleme iptal ediliyor.')
+    quit()
 
 #### Kurulum
 
