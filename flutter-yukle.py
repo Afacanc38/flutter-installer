@@ -39,7 +39,7 @@ os.system('sudo apt-get install bash curl unzip zip xz-utils git -y>>/dev/null')
 
 # Flutter'ı tar komutunu kullanarak çıkaralım.
 print('Arşiv çıkarılıyor...')
-os.system('tar xf ~/Downloads/flutter_linux_2.0.2-stable.tar.xz>>/dev/null')
+os.system('tar xf ./flutter_linux_2.0.2-stable.tar.xz>>/dev/null')
 
 # Flutter'ı ev dizinine taşıyalım ve gizleyelim.
 print('Klasör taşınıyor...')
