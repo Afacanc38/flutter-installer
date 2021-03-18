@@ -43,7 +43,7 @@ os.system('tar xf ./flutter_linux_2.0.2-stable.tar.xz>>/dev/null')
 
 # Flutter'ı ev dizinine taşıyalım ve gizleyelim.
 print('Klasör taşınıyor...')
-os.system('mv flutter_linux_2.0.2-stable .flutter && mv .flutter ~/')
+os.system('mv flutter .flutter && mv .flutter ~/')
 
 # Flutter'ın yolunu .bashrc dosyasına ekleyelim.
 print("Yol ekleniyor")
