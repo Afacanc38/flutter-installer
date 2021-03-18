@@ -1,3 +1,5 @@
+> This document is also available in [English](https://github.com/Afacanc38/flutter-yukleyici/blob/main/README.md).
+
 # Flutter Yükleyici
 Flutter ve Dart'ı kolayca yükleyin!
 # Kullanım
