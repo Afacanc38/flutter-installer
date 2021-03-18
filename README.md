@@ -1,8 +1,5 @@
 # Flutter Yükleyici
 Flutter ve Dart'ı kolayca yükleyin!
-# Bağımlılıklar
-* time
-* os
 
 `pip3 install <paketadi>` ile kurabilirsiniz.
 # Kullanım
