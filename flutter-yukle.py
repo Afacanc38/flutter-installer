@@ -19,26 +19,17 @@
 print("Flutter Yükleyici\nCopyright (C) 2021  Alperen İsa Nalbant. \nBu program KESİNLİKLE HİÇBİR GARANTİSİ YOKTUR; ayrıntılar için LICENSE dosyasına bakın. \nBu bir özgür yazılımdır ve belirli koşullar altında yeniden dağıtabilirsiniz. Ayrıntılar için LICENSE dosyasına bakın.\n")
 
 #### Kütüphaneler
+
+# Sistem komutlarını çalıştırabilmesi için bu kütüphaneyi etkinleştirelim.
 import os
 import time
-import requests
 
 #### İndirme
 
 # Flutter'ı wget kullanarak indirelim.
 print('Flutter indiriliyor...')
-try:
-    url = 'https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz'
-    r = requests.get(url)
-    filename = url.split('/')[-1]
-    with open(filename,'wb') as output_file:
-        output_file.write(r.content)
-except KeyboardInterrupt:
-    print('Yükleme iptal edildi.')
-    quit()
-except Exception:
-    print('Bilinmeyen bir hata oluştu. Yükleme iptal ediliyor.')
-    quit()
+time.sleep(3)
+os.system('wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz>>/dev/null')
 
 #### Kurulum
 
