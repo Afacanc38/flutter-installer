@@ -4,6 +4,7 @@ Flutter ve Dart'ı kolayca yükleyin!
 * time
 * requests
 * os
+
 `pip3 install <paketadi>` ile kurabilirsiniz.
 # Kullanım
 ```
