@@ -17,7 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #### GNU Genel Kamu Lisansı hakkında bilgilendirme
-print("Flutter Yükleyici  Copyright (C) 2021  Alperen İsa Nalbant. \nBu program KESİNLİKLE HİÇBİR GARANTİSİ YOKTUR; ayrıntılar için LICENSE dosyasına bakın. Bu bir özgür yazılımdır ve belirli koşullar altında yeniden dağıtabilirsiniz. Ayrıntılar için LICENSE dosyasına bakın.")
+print("Flutter Yükleyici  Copyright (C) 2021  Alperen İsa Nalbant. \nBu program KESİNLİKLE HİÇBİR GARANTİSİ YOKTUR; ayrıntılar için LICENSE dosyasına bakın. \nBu bir özgür yazılımdır ve belirli koşullar altında yeniden dağıtabilirsiniz. Ayrıntılar için LICENSE dosyasına bakın.\n")
 #### Kütüphaneler
 
 # Sistem komutlarını çalıştırabilmesi için bu kütüphaneyi etkinleştirelim.
