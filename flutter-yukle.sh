@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Flutter Installer
+# Copyright (C) 2021  Alperen İsa Nalbant
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+echo "Bağımlılıklar kuruluyor..."
+sudo apt install bash curl file git unzip which xz-utils zip dialog -y>>/dev/null
+
+echo "Flutter kuruluyor..."
+wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz
+
+echo "Arşiv çıkarılıyor..."
+tar xf ./flutter_linux_2.0.2-stable.tar.xz>>/dev/null
+
+echo "Dosya adı .flutter olarak değiştiriliyor ve ev dizinine taşınıyor..."
+mv flutter .flutter
+mv .flutter ~/
+
+echo "PATH ekleniyor..."
+echo 'export PATH="$PATH:~/.flutter/bin"'>>~/.bashrc
+source ~/.bashrc
+
+echo "Kurulum tamamlanıyor..."
+flutter precache>>/dev/null
+
+echo "\n\nFlutter çokme raporlarını ve özellik kullanım istatisliklerini otomatik olarak Google'a gönderir."
+echo "Ayrıntılar için https://k.yapboz.ml/flutter-raporları adresini ziyaret edin."
+echo "\n\nBunu kapatmak için 'flutter config --no-analytics' yazın."
+
+echo "\n\nKurulum tamamlandı!"
