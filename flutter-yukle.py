@@ -28,6 +28,7 @@ import time
 
 # Flutter'ı wget kullanarak indirelim.
 print('Flutter indiriliyor...')
+time.sleep(3)
 os.system('wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz>>/dev/null')
 
 #### Kurulum
