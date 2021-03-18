@@ -1,11 +1,11 @@
-> This document is also available in [English](https://github.com/Afacanc38/flutter-yukleyici/blob/main/README.md).
+> This document is also available in [English](https://github.com/Afacanc38/flutter-installer/blob/main/README.md).
 
 # Flutter Yükleyici
 Flutter ve Dart'ı kolayca yükleyin!
 # Kullanım
 ```
-git clone https://github.com/Afacanc38/flutter-yukleyici/flutter-yukleyici.git
-cd flutter-yukleyici
+git clone https://github.com/Afacanc38/flutter-installer/flutter-installer.git
+cd flutter-installer
 chmod +x flutter-yukle.sh
 ./flutter-yukle.sh
 ```
