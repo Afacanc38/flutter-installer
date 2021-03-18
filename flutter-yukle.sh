@@ -31,6 +31,7 @@ mv .flutter ~/
 
 echo "PATH ekleniyor..."
 echo 'export PATH="$PATH:~/.flutter/bin"'>>~/.bashrc
+export PATH="$PATH:~/.flutter/bin"
 source ~/.bashrc
 
 echo "Kurulum tamamlanıyor..."
