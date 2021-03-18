@@ -1,7 +1,7 @@
 > Bu belge [Türkçe](https://github.com/Afacanc38/flutter-installer/blob/main/README-TR.md) olarak da mevcuttur.
 
 # Flutter Installer
-Install Flutter and Dart easily!
+Easily install Flutter and Dart on GNU/Linux!
 # Usage
 ```
 git clone https://github.com/Afacanc38/flutter-installer/flutter-installer.git
