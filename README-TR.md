@@ -1,7 +1,7 @@
 > This document is also available in [English](https://github.com/Afacanc38/flutter-installer/blob/main/README.md).
 
 # Flutter Yükleyici
-Flutter ve Dart'ı kolayca yükleyin!
+Flutter ve Dart'ı GNU/Linux'a kolayca yükleyin!
 # Kullanım
 ```
 git clone https://github.com/Afacanc38/flutter-installer/flutter-installer.git
