@@ -17,9 +17,9 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 echo "Bağımlılıklar kuruluyor..."
-sudo apt-get install bash curl file git unzip xz-utils zip dialog -y>>/dev/null
+sudo apt install bash curl file git unzip which xz-utils zip dialog -y>>/dev/null
 
-echo "Flutter indiriliyor..."
+echo "Flutter kuruluyor..."
 wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz
 
 echo "Arşiv çıkarılıyor..."
@@ -36,8 +36,8 @@ source ~/.bashrc
 echo "Kurulum tamamlanıyor..."
 flutter precache>>/dev/null
 
-echo "\n\nFlutter çokme raporlarını ve özellik kullanım istatisliklerini otomatik olarak Google'a gönderir."
+echo "Flutter çokme raporlarını ve özellik kullanım istatisliklerini otomatik olarak Google'a gönderir."
 echo "Ayrıntılar için https://k.yapboz.ml/flutter-raporları adresini ziyaret edin."
-echo "\n\nBunu kapatmak için 'flutter config --no-analytics' yazın."
+echo "Bunu kapatmak için 'flutter config --no-analytics' yazın."
 
-echo "\n\nKurulum tamamlandı!"
+echo "Tamamlandı!"
