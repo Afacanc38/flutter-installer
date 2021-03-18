@@ -41,4 +41,4 @@ echo "Flutter çokme raporlarını ve özellik kullanım istatistiklerini otomat
 echo "Ayrıntılar için https://k.yapboz.ml/flutter-raporları adresini ziyaret edin."
 echo "Bunu kapatmak için uçbirimi yeniden başlatıp 'flutter config --no-analytics && dart --disable-analytics' yazın."
 echo
-echo "Tamamlandı!"
+echo "Kurulum tamamlandı!"
