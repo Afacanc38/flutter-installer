@@ -6,8 +6,8 @@ Install Flutter and Dart easily!
 ```
 git clone https://github.com/Afacanc38/flutter-yukleyici/flutter-yukleyici.git
 cd flutter-yukleyici
-chmod +x flutter-yukleyici.sh
-./flutter-installer.sh
+chmod +x install-flutter.sh
+./install-flutter.sh
 ```
 # Issues
 Please indicate the errors you encounter in the Issues section.
