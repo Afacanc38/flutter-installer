@@ -36,9 +36,9 @@ source ~/.bashrc
 
 echo "Kurulum tamamlanıyor..."
 flutter precache>>/dev/null
-
+echo
 echo "Flutter çokme raporlarını ve özellik kullanım istatisliklerini otomatik olarak Google'a gönderir."
 echo "Ayrıntılar için https://k.yapboz.ml/flutter-raporları adresini ziyaret edin."
 echo "Bunu kapatmak için 'flutter config --no-analytics' yazın."
-
+echo
 echo "Tamamlandı!"
