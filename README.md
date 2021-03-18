@@ -1,4 +1,4 @@
-> Bu belge [Türkçe](https://github.com/Afacanc38/flutter-yukleyici/blob/main/README-TR.md) olarak da mevcuttur.
+> Bu belge [Türkçe](https://github.com/Afacanc38/flutter-installer/blob/main/README-TR.md) olarak da mevcuttur.
 
 # Flutter Installer
 Install Flutter and Dart easily!
