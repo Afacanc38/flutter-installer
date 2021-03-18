@@ -46,8 +46,8 @@ print('Klasör taşınıyor...')
 os.system('mv flutter .flutter && mv .flutter ~/')
 
 # Flutter'ın yolunu .bashrc dosyasına ekleyelim.
-print("Yol ekleniyor")
-os.system("export PATH='$PATH:~/.flutter/flutter/bin'")
+print("Yol ekleme:\n1. Dosya yöneticisini açın.\n2. Ctrl+H tuşlarına basın\n3. .bashrc dosyasını açın. En alta gelip şu satırı yapıştırın:\n")
+print("export PATH='$PATH:~/.flutter/flutter/bin\n\nDevam etmek için ENTER tuşuna basın.")
 
 # Anonim veri göndermeyi devre dışı bırakalım
 veri = input('Flutter bazen (örneğin çöktüğünde) anonim veriler gönderebilir. Ayrıntılar için https://k.yapboz.ml/flutter-raporları adresini ziyaret edin. \nBu devre dışı bırakılsın mı? [e/H] ')
