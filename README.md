@@ -1,7 +1,5 @@
 # Flutter Yükleyici
 Flutter ve Dart'ı kolayca yükleyin!
-
-`pip3 install <paketadi>` ile kurabilirsiniz.
 # Kullanım
 ```
 git clone https://github.com/Afacanc38/flutter-yukleyici/flutter-yukleyici.git
