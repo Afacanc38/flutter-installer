@@ -20,10 +20,10 @@ echo "Bağımlılıklar kuruluyor..."
 sudo apt-get install bash curl file git unzip xz-utils zip dialog -y>>/dev/null
 
 echo "Flutter indiriliyor..."
-wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz
+curl https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.5-stable.tar.xz --output flutter.tar.xz
 
 echo "Arşiv çıkarılıyor..."
-tar xf ./flutter_linux_2.0.2-stable.tar.xz>>/dev/null
+tar xf ./flutter.tar.xz>>/dev/null
 
 echo "Dosya adı .flutter olarak değiştiriliyor ve ev dizinine taşınıyor..."
 mv flutter .flutter
