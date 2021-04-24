@@ -4,7 +4,7 @@
 Flutter ve Dart'ı GNU/Linux'a kolayca yükleyin!
 # Kullanım
 ```
-git clone https://github.com/Afacanc38/flutter-installer/flutter-installer.git
+git clone https://github.com/Afacanc38/flutter-installer.git
 cd flutter-installer
 chmod +x flutter-yukle.sh
 ./flutter-yukle.sh
