@@ -20,10 +20,10 @@ echo "Dependencies are being established..."
 sudo apt-get install bash curl file git unzip xz-utils zip dialog -y>>/dev/null
 
 echo "Downloading Flutter..."
-wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.2-stable.tar.xz
+curl https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.5-stable.tar.xz --output flutter-stable.tar.xz
 
 echo "Archive extracting..."
-tar xf ./flutter_linux_2.0.2-stable.tar.xz>>/dev/null
+tar xf ./flutter-stable.tar.xz>>/dev/null
 
 echo "Changing filename to .flutter and moving to home directory..."
 mv flutter .flutter
