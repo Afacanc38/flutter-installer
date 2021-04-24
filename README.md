@@ -4,7 +4,7 @@
 Easily install Flutter and Dart on GNU/Linux!
 # Usage
 ```
-git clone https://github.com/Afacanc38/flutter-installer/flutter-installer.git
+git clone https://github.com/Afacanc38/flutter-installer.git
 cd flutter-installer
 chmod +x install-flutter.sh
 ./install-flutter.sh
