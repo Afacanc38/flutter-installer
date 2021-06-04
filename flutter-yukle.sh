@@ -20,7 +20,7 @@ echo "Bağımlılıklar kuruluyor..."
 sudo apt-get install bash curl file git unzip xz-utils zip dialog -y>>/dev/null
 
 echo "Flutter indiriliyor..."
-curl https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.5-stable.tar.xz --output flutter-stable.tar.xz
+curl https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.2.1-stable.tar.xz --output flutter-stable.tar.xz
 
 echo "Arşiv çıkarılıyor..."
 tar xf ./flutter-stable.tar.xz>>/dev/null
